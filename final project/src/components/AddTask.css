@@ -1,0 +1,37 @@
+.main {
+  background: white;
+  padding: 20px 40px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.main h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.add-task-form {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+.add-task-form input {
+  background: white;
+  border: 1px solid black;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding: 10px;
+  color: black;
+}
+
+.add-task-form button {
+  background: black;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}

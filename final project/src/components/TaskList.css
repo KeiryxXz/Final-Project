@@ -1,0 +1,17 @@
+.list {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 0px 100px;
+  width: 100%;
+  max-width: 296px;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.list h2 {
+  color: black;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,42 @@
+.task {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  width: 350px;
+  max-width: 350px;
+  overflow-x: auto;
+}
+
+.task::-webkit-scrollbar {
+  height: 5px;
+}
+
+.task::-webkit-scrollbar-track {
+  background: white;
+}
+
+.task::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 50px;
+}
+
+.task::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
+.task-text {
+  flex: 1;
+  padding-right: 10px;
+  color: black;
+  font-size: 16px;
+}
+
+.task-delete-button, .task-check-button {
+  cursor: pointer;
+  margin-right: 10px;
+}

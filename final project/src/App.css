@@ -1,0 +1,15 @@
+body {
+    background: white;
+}
+
+.add-task-container {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.task-list-container {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
